@@ -95,15 +95,41 @@ plt.show()
 ```
 
 ### OUTPUT:
+#### GIVEN DATA:
+```
+Columns in dataset: Index(['Unnamed: 0', 'Date', 'Monthly Mean Total Sunspot Number'], dtype='object')
+   Unnamed: 0        Date  Monthly Mean Total Sunspot Number
+0           0  1749-01-31                               96.7
+1           1  1749-02-28                              104.3
+2           2  1749-03-31                              116.7
+3           3  1749-04-30                               92.8
+4           4  1749-05-31                              141.7
+Date
+1749-01-01     96.7
+1749-02-01    104.3
+1749-03-01    116.7
+1749-04-01     92.8
+1749-05-01    141.7
+Freq: MS, Name: Monthly Mean Total Sunspot Number, dtype: float64
+```
+#### SCALED DATA SPOT:
+<img width="561" height="453" alt="image" src="https://github.com/user-attachments/assets/f9faf5f9-6f19-4c05-af73-e5b75dc58c77" />
 
+#### DECOMPOSED PLOT:
+<img width="630" height="470" alt="image" src="https://github.com/user-attachments/assets/8de43301-5e44-460a-a168-b887120ea800" />
 
-#### TEST_PREDICTION
+#### TEST_PREDICTION:
 
-<img width="1017" height="545" alt="image" src="https://github.com/user-attachments/assets/65225ff5-03d4-4298-89a0-6f69da720a74" />
+<img width="838" height="545" alt="image" src="https://github.com/user-attachments/assets/0a0b2d78-cbad-4838-86b4-59d8f62b4b08" />
 
+```
+Test RMSE: 0.16751780015256632
+Scaled Data Std Dev: 0.17049039808654087
+Scaled Data Mean: 1.2053711071952424
+```
 
 #### FINAL_PREDICTION
-<img width="1013" height="545" alt="image" src="https://github.com/user-attachments/assets/9d09fbc5-016c-44ba-b32a-16d1e62d6db2" />
+<img width="846" height="545" alt="image" src="https://github.com/user-attachments/assets/d65cba85-9180-4913-855d-1d5635e3fd6b" />
 
 ### RESULT:
 Thus the program run successfully based on the Holt Winters Method model.
